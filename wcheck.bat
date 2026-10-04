@@ -1,1 +1,1 @@
-SFC /scannow && DISM /online /cleanup-image /checkhealth && DISM /online /cleanup-image /scanhealth && Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore
+dism /online /cleanup-image /checkhealth & dism /online /cleanup-image /scanhealth & dism /online /cleanup-image /analyzecomponentstore & sfc /verifyonly

@@ -1,1 +1,1 @@
-Dism.exe /Online /Cleanup-Image /RestoreHealth && Dism.exe /online /Cleanup-Image /StartComponentCleanup
+dism /online /cleanup-image /restorehealth & dism /online /cleanup-image /startcomponentcleanup & sfc /scannow
